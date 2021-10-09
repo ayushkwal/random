@@ -8,10 +8,13 @@
     <title>Document</title>
 </head>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,200&display=swap');
+
+
     * {
         transition: all 0.4s ease-out;
         font-weight: 200;
-
+        font-family: 'Montserrat', sans-serif;
 
     }
 
@@ -328,7 +331,7 @@
         therapy = catnum;
         if (therapy == 1) {
             document.getElementById('q2').innerHTML = ` 
-            <h2>Choose Your Durations</h2>
+            <h2>Choose Your Duration</h2>
 
             <ul style="z-index:2">
                 <li onclick="dur(30)">30 Minutes </li>
