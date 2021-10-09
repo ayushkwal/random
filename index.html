@@ -13,7 +13,7 @@
 
     * {
         transition: all 0.4s ease-out;
-        font-weight: 200;
+        font-weight: 500;
         font-family: 'Montserrat', sans-serif;
 
     }
@@ -33,6 +33,7 @@
         /* background-image: url(section_background.png); */
         background-repeat: no-repeat;
         background-size: cover;
+        /* padding-top: 50px; */
     }
 
     #q1 {
@@ -131,6 +132,7 @@
         justify-content: end;
         margin-left: 0px;
         /* flex-direction: column; */
+        
     }
 
     .outer {
@@ -142,7 +144,9 @@
         border: 2px solid rgb(226, 223, 223);
         background-color: #fff;
         min-width: 260px;
-        min-height: 90vh;
+        height: fit-content;
+        padding-bottom: 30px;
+        /* min-height: 90vh; */
 
 
 
@@ -164,7 +168,8 @@
 
     .peach {
         background-color: #ebf1ff;
-        padding: 5px 10px;
+        padding: 5px 15px;
+        border-radius: 20px;
 
     }
 
@@ -174,7 +179,8 @@
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         margin: 2px 2px;
-        min-height: 36vh;
+        /* min-height: 36vh; */
+        padding-bottom: 20px;
 
     }
 
@@ -217,7 +223,8 @@
         font-size: 20px;
         border-radius: 10px;
         padding: 10px 10px;
-        color:white
+        color:white;
+        margin-bottom: -95px;
     }
     /* .white a:hover {
         background-color: rgb(70, 70, 153);
@@ -232,6 +239,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         margin-left: 0px;
+        
     }
 
     @media screen and (max-width:1000px) {
@@ -898,8 +906,9 @@
         if (therapy == 80) {
             document.getElementById('package').style.backgroundImage = `url("14.png")`;
             document.getElementById('package').innerHTML = `
-        <p>
-                <div class="outer" id="pink_outer" style="background-color:#fff1f2">
+        <p >
+        
+                <div class="outer" id="pink_outer" style="background-color:#fdedf3">
                     <div class="cyan" id="cyan_outer" style="background-color:#fa98b0">
                         <h2 style="text-align: center;font-size: 25px;">Break The Barrier<br>1 Session</h2>
                     </div>
@@ -915,17 +924,16 @@
                         <div>
                             <h5>Building better understanding</h5>
                         </div>
-                       
-                        
                     </div>
                     <div class="peach" id="pink_one" style="margin-bottom:20px;background-color:#fa98b0;">
                         <div>
-                            <h2 style="text-align: center;font-size: 22px;color:#274472">Best Price: ₹800</h2>
+                            <h2 style="text-align: center;font-size: 18px;color:#274472">Best Price: ₹800</h2>
                             
                         </div>
                     </div>
-                        <a id="pink_a" href="/counseling/book-asession">Book A Session</a>
+                    <a id="pink_a" href="/counseling/book-asession">Book A Session</a> 
                 </div> 
+               
             </p>
         <p>
                 <div class="outer" id="pink_outer" style="background-color:#fff1f2">
@@ -957,7 +965,7 @@
                     </div>
                     <div class="peach" id="pink_one" style="margin-bottom:20px;background-color:#fa98b0;">
                         <div>
-                            <h2 style="text-align: center;font-size: 22px;color:#274472">Best Price:  <del>₹4000</del> ₹3600</h2>
+                            <h2 style="text-align: center;font-size: 18px;color:#274472">Best Price:  <del>₹4000</del> ₹3600</h2>
                             
                         </div>
                     </div>
@@ -1002,7 +1010,7 @@
                     </div>
                     <div class="peach" id="pink_one" style="margin-bottom:20px;background-color:#fa98b0;">
                         <div>
-                            <h2 style="text-align: center;font-size: 22px;color:#274472">Best Price:  <del>₹8000</del> ₹6800</h2>
+                            <h2 style="text-align: center;font-size: 18px;color:#274472">Best Price:  <del>₹8000</del> ₹6800</h2>
                             
                         </div>
                     </div>
@@ -1013,6 +1021,7 @@
             `;
 
             document.getElementById('package').style.display = 'flex';
+            document.getElementById('package').style.paddingBottom = '80px';
 
         }
 
@@ -1042,7 +1051,7 @@
                     </div>
                     <div class="peach" id="pink_one" style="margin-bottom:20px;background-color:#fa98b0;">
                         <div>
-                            <h2 style="text-align: center;font-size: 22px;color:#7b7b7c">Best Price: ₹1200</h2>
+                            <h2 style="text-align: center;font-size: 18px;color:#7b7b7c">Best Price: ₹1200</h2>
                             
                         </div>
                     </div>
@@ -1081,7 +1090,7 @@
                     </div>
                     <div class="peach" id="pink_one" style="margin-bottom:20px;background-color:#fa98b0;" style="margin-bottom:20px;background-color:#ffe6ee">
                         <div>
-                            <h2 style="text-align: center;font-size: 22px;color:#7b7b7c">Best Price:  <del>₹6000</del> ₹5400</h2>
+                            <h2 style="text-align: center;font-size: 18px;color:#7b7b7c">Best Price:  <del>₹6000</del> ₹5400</h2>
                             
                         </div>
                     </div>
@@ -1127,7 +1136,7 @@
                     
                     <div class="peach" id="pink_one" style="margin-bottom:20px;background-color:#fa98b0;" style="margin-bottom:20px;background-color:#ffe6ee">
                         <div>
-                            <h2 style="text-align: center;font-size: 22px;color:#7b7b7c">Best Price:  <del>₹12000</del> ₹10200</h2>
+                            <h2 style="text-align: center;font-size: 18px;color:#7b7b7c">Best Price:  <del>₹12000</del> ₹10200</h2>
                             
                         </div>
                     </div>
@@ -1138,6 +1147,7 @@
             `;
 
             document.getElementById('package').style.display = 'flex';
+            document.getElementById('package').style.paddingBottom = '80px';
 
         }
 
@@ -1166,7 +1176,7 @@
                        
                         <div class="peach" id="one" style="margin-bottom:20px;background-color:#e4ecce">
                         <div>
-                            <h2 style="text-align: center;font-size: 22px;color:#7b7b7c">Best Price: ₹1000</h2>
+                            <h2 style="text-align: center;font-size: 22px;color:#7b7b7c;border-radius:12px">Best Price: ₹1000</h2>
                             
                         </div>
                     </div>
