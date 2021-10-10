@@ -164,6 +164,7 @@
         border-radius: 20px;
         color: white;
         font-size: 22px;
+        font-weight: 500;
     }
 
     .peach {
@@ -188,8 +189,8 @@
         color: #274472 !important;
         /* text-align: center; */
         font-size: 18px;
-        height:15px;
-        padding-left: 20px;
+        /* height:15px; */
+        margin: 15px 0px;
     }
 
     .white a
@@ -242,6 +243,7 @@
         color:white;
         margin-bottom: -95px;
     }
+
     /* .white a:hover {
         background-color: rgb(70, 70, 153);
         color: white
@@ -920,7 +922,8 @@
             document.getElementById('package').style.backgroundImage = `url("14.png")`;
             document.getElementById('package').innerHTML = `
         <p >
-        
+            <h4 style="text-align:center;color:#e75480;font-size:25px;width:100vw;margin-top:-20px">Couples/Relationships<br>Session duration: 60 Mins</h4>
+     
                 <div class="outer" id="pink_outer" style="background-color:#fdedf3">
                     <div class="cyan" id="cyan_outer" style="background-color:#fa98b0">
                         <h2 style="text-align: center;font-size: 25px;">Break The Barrier<br>1 Session</h2>
@@ -1042,6 +1045,8 @@
         if (therapy == 110) {
             document.getElementById('package').style.backgroundImage = `url("14.png")`;
             document.getElementById('package').innerHTML = `
+            <h4 style="text-align:center;color:#e75480;font-size:25px;width:100vw;margin-top:12px">Family/Groups<br>Session duration: 90 Mins</h4>
+     
         <p>
                 <div class="outer" id="pink_outer" style="background-color:#fff1f2" >
                     <div class="cyan"  id="cyan_outer" style="background-color:#fa98b0">
@@ -1171,12 +1176,14 @@
             document.getElementById('package').style.backgroundSize = 'cover';
             document.getElementById('package').innerHTML = `
         <p>
-                <div class="outer" id="green_outer">
+            <h4 style="text-align:center;color:navy;font-size:25px;width:100vw;margin-top:-20px">Family/Groups<br>Session duration: 60 Mins</h4>
+     
+                <div class="outer" id="green_outer" style="background-color:#f1f8f9">
                     <div class="cyan" id="cyan_green_outer" style="background-color:#c5e3e7">
                         <h2 style="text-align: center;font-size: 25px;color:#274472">Break The Barrier<br>1 Session</h2>
                     </div>
                    
-                    <div class="white" id="white_green_outer">
+                    <div class="white" id="white_green_outer" style="background-color:#f1f8f9">
                         <div>
                             <h5>	Understanding the Family Dynamics </h5>
                         </div>
@@ -1203,12 +1210,12 @@
             
             
         <p>
-                <div class="outer">
+                <div class="outer" style="background-color:#f1f8f9">
                     <div class="cyan"  id="cyan_green_outer" style="background-color:#c5e3e7;color:#274472">
                         <h2 style="text-align: center;font-size: 25px;color:#274472">Well Being <br>5 Sessions</h2>
                     </div>
                     
-                    <div class="white">
+                    <div class="white" style="background-color:#f1f8f9">
                         <div>
                             <h5>	Effective Communication</h5>
                         </div>
@@ -1244,12 +1251,12 @@
 
 
             <p>
-                <div class="outer">
+                <div class="outer" style="background-color:#f1f8f9">
                     <div class="cyan"  id="cyan_green_outer" style="background-color:#c5e3e7;color:#274472">
                         <h2 style="text-align: center;font-size: 25px;color:#274472">	Restructure<br>10 Sessions</h2>
                     </div>
                    
-                    <div class="white">
+                    <div class="white" style="background-color:#f1f8f9">
                         <div>
                             <h5>		Strengthening the Bonds</h5>
                         </div>
@@ -1294,6 +1301,7 @@
             `;
 
             document.getElementById('package').style.display = 'flex';
+            document.getElementById('package').style.paddingBottom = '80px';
 
         }
 
@@ -1301,13 +1309,14 @@
             document.getElementById('package').style.backgroundImage = `url("15.png")`;
             document.getElementById('q2').style.backgroundPosition = `bottom`
             document.getElementById('package').innerHTML = `
+            <h4 style="text-align:center;color:navy;font-size:25px;width:100vw;margin-top:12px">Family/Groups<br>Session duration: 90 Mins</h4>
         <p>
-                <div class="outer">
+                <div class="outer" style="background-color:#f1f8f9">
                     <div class="cyan" style="background-color:#c5e3e7;">
                         <h2 style="text-align: center;font-size: 25px;color:#274472">Break The Barrier<br>1 Session</h2>
                     </div>
                    
-                    <div class="white">
+                    <div class="white" style="background-color:#f1f8f9">
                         <div>
                             <h5>	Understanding the Family Dynamics </h5>
                         </div>
@@ -1320,24 +1329,24 @@
                         </div>
                        
                     </div>
-                <div class="peach" id="one" style="margin-bottom:20px;background-color:#e4ecce">
+                <div class="peach" id="one" style="margin-bottom:20px;background-color:#c5e3e7">
                         <div>
                             <h2 style="text-align: center;font-size: 18px;color:#274472;">Best Price: ₹1400</h2>
                             
                         </div>
                     </div>
-                        <a href="/counseling/book-asession">Book A Session</a>
+                        <a id="green_a" href="/counseling/book-asession">Book A Session</a>
                     </div>
             </p>
             
             
         <p>
-                <div class="outer">
+                <div class="outer" style="background-color:#f1f8f9">
                     <div class="cyan" style="background-color:#c5e3e7;">
                         <h2 style="text-align: center;font-size: 25px;color:#274472">Well Being <br>5 Sessions</h2>
                     </div>
                     
-                    <div class="white">
+                    <div class="white" style="background-color:#f1f8f9">
                         <div>
                             <h5>	Effective Communication</h5>
                         </div>
@@ -1363,25 +1372,25 @@
                         </div>
                        
                 </div>
-                <div class="peach" id="one" style="margin-bottom:20px;background-color:#e4ecce">
+                <div class="peach" id="one" style="margin-bottom:20px;background-color:#c5e3e7">
                         <div>
                             <h2 style="text-align: center;font-size: 18px;color:#274472;">Best Price:  <del>₹7000</del> ₹6300</h2>
                             
                         </div>
                     </div>
-                        <a href="/counseling/book-asession">Book A Session</a>
+                        <a id="green_a" href="/counseling/book-asession">Book A Session</a>
                     </div>
             </p>
 
 
 
             <p>
-                <div class="outer">
+                <div class="outer" style="background-color:#f1f8f9">
                     <div class="cyan" style="background-color:#c5e3e7">
                         <h2 style="text-align: center;font-size: 25px;color:#274472">	Restructure<br>10 Sessions</h2>
                     </div>
                    
-                    <div class="white">
+                    <div class="white" style="background-color:#f1f8f9">
                         <div>
                             <h5>		Strengthening the Bonds</h5>
                         </div>
@@ -1415,19 +1424,20 @@
                        
                        
                 </div>
-                <div class="peach" id="one" style="margin-bottom:20px;background-color:#e4ecce">
+                <div class="peach" id="green_one" style="margin-bottom:20px;background-color:#c5e3e7">
                         <div>
                             <h2 style="text-align: center;font-size: 17px;color:#274472">Best Price:  <del>₹14000</del> ₹12000</h2>
                             
                         </div>
                     </div>
-                        <a href="/counseling/book-asession">Book A Session</a>
+                        <a id="green_a" href="/counseling/book-asession">Book A Session</a>
                     </div>
             </p>
 
             `;
 
             document.getElementById('package').style.display = 'flex';
+            document.getElementById('package').style.paddingBottom = '80px';
         }
 
 
